@@ -1,22 +1,104 @@
 <html>
     <head>
-       
+        <style>
+   .Surname{
+   margin-left: 200px;
+   margin-top: -41px;
+   }
+   .State{
+       margin-left: 200px;
+       margin-top: -40px;
+   }
+   .Country{
+    margin-left: 200px;
+       margin-top: -57px;
+   }
+   .all{
+       text-align:center;
+      
+   }
+   .head{
+       text-align: center;
+   }
+   .Name{
+       margin-left:-220px;
+   }
+   .city{
+        margin-left: -220px;
+   }
+   .Postalcode{
+       margin-left: -230px;
+    
+      
+   }
+   .Country{
+       margin-right: 5px;
+       width: 202px;
 
+     
+   }
+   .button{
+          background-color:blue;
+          border: none;
+          color: white;
+          padding: 5px 87px;
+          text-align: center;
+         text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer; 
+          
+   }
+</style>
     </head>
     <body>
-    </div>
-<p>WEBINAR REGISTRATION</p>
+    <div class="head">
+<p>WEBINAR REGISTRATION</p></div>
+<div class="all">
+<div class="Name">
+<label for="name" style="margin-left: -120px;">FullName:</label><br>
+<input type="text"  Name="name" placeholder="Name" size="22" required><br></div>
+<div class="Surname">
+<label for="name"></label><br>
+<input type="text"  Surname="surname" placeholder="Surname" size="25"  required>
+</div> <br>
+<div class="email">
+    <label for="email" style="margin-left: -360px;" >Email:</label><br>
+    <input type="text"Email="email" placeholder="jack@example.com" size="55" required>
+
+</div>
+<div class="Company">
+    <label for="Company" style="margin-left: -340px;">Company:</label><br>
+    <input type="text" Comany="company" size="55" placeholder="CompanyName" required>
+</div><br>
+<div class="web">
+    <label for="Company website" style="margin-left: -280px;">Company website:</label><br>
+    <input type="text" Website="website" required placeholder="http://example.com"size="55">
+</div><br>
+<div class="Adress">
+    <label for="Address" style="margin-left: -340px;">Address:</label><br>
+    <input type="text" Address="address" placeholder="Street address" size="55"><br><br>
+    <input type="text" placeholder="Apartment,suite,etc." size="55"></div><br>
+  <div class="city"> <input type="text" placeholder="City" size="22"></div> <br>
+    <div class="state"><input type="text" placeholder="State" size="25"></div><br>
+    <div class="Postalcode"><input type="text" placeholder="Postal code"> </div><br>
+<br>
 <div>
-<label for="fname">FullName</label><br>
-<input type="text" id="fname" Name="fname" placeholder="Name"><br>
-<label for="fname"></label><br>
-<input type="text" id="Surname" Surname="surname" placeholder="Surname">
+    <select class="Country">
+        <option selected>USA</option>
+        <option >Moscow</option>
+        <option >Baku</option>
+        <option >Spain</option>
+    </select>
+</div><br>
+<div class="button">
+ <button class="button" type="button" >Register</button>
+</div>
+</div>
 
-
-</div>  
 </body>
 </html>
-
 
 
 
